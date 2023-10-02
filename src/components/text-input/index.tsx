@@ -1,0 +1,1 @@
+export { InputTextLabel } from "./ui";

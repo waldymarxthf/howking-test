@@ -1,0 +1,39 @@
+.input:focus {
+  &[aria-invalid="false"] {
+    border: 2px solid var(--mantine-color-myColor-4);
+  }
+}
+
+.input {
+  border: 2px solid var(--_input-bd);
+  color: #666;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.label {
+  margin-bottom: 8px;
+  color: #666;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.description {
+  color: #666;
+  position: absolute;
+  margin-top: 70px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.error {
+  position: absolute;
+  margin-top: -15px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}

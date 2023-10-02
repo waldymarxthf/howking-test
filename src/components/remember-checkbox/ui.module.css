@@ -1,0 +1,25 @@
+.label {
+  color: #666;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.input {
+  background: var(--mantine-color-white);
+  background-color: var(--mantine-color-white);
+  cursor: pointer;
+}
+
+.icon {
+  color: var(--mantine-color-myColor-4);
+}
+
+.error {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}

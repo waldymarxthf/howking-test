@@ -1,0 +1,7 @@
+body {
+  background-color: var(--mantine-color-myColor-1);
+}
+
+.mantine-Switch-track:checked {
+  background-color: var(--mantine-color-myColor-4);
+}

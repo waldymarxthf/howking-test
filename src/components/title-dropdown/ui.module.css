@@ -1,0 +1,43 @@
+.dropdown {
+  &[data-position="bottom"] {
+    border-top: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border-color: light-dark(var(--mantine-color-gray-4), var(--mantine-color-dark-4));
+  }
+}
+
+.input {
+  color: #333;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  &[data-expanded] {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+}
+
+.input:focus {
+  border: 2px solid var(--mantine-color-myColor-4);
+}
+
+.option {
+  color: #666;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  &[data-combobox-selected] {
+    background-color: var(--mantine-color-gray-3)
+  },
+  &[data-combobox-active] {
+    background-color: var(--mantine-color-myColor-4);
+    color: var(--mantine-color-white);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  };
+}
